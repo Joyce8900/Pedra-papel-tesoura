@@ -4,9 +4,9 @@ Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
 ele/ela precisa saber. Os comentários devem incluir, pelo menos:
 ------------------------------------------------------------------------
 
-TÍTULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
+TÍTULO DO PROJETO: Pedra, papel e tesoura
+OBJETIVO DO PROJETO: 
+VERSÃO ou DATA: 28/11/22
 COMO INICIAR O PROJETO:
 AUTORES:
 INSTRUÇÕES PARA O USUÁRIO:
