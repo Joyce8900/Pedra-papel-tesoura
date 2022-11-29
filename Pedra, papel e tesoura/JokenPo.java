@@ -28,6 +28,25 @@ public record JokenPo(
         winnerRound(result);
         
         }
+        public void showFinalResult(){
+            System.out.println ("*************************\n");
+            Integer finalScoreUser = user.getScore();
+            Integer finalScoreIA = IA.getScore();
+            
+            System.out.println("\n\t Resultado final: "+ user.getName()+" " + user.getScore() + "X" + IA.getScore() +" " +IA.getName());
+           
+            if (finalScoreUser = finalScoreIA){
+                 System.out.println ("\n\t\t\t EMPATE!");
+            
+            
+            }
+            else {
+              String finalWinner = (finalScoreUser > finalScoreIA) ? user.getName() : IA.getName();
+              System.out.println("\t\tVENCEDOR = " + finalWinner.toUpperCase());
+              System.out.println ("*************************************************************\n");
+    }
+            
+        }
         
         
 }  private void winnerRound(int result){
